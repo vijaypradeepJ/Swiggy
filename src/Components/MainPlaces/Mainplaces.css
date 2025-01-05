@@ -1,0 +1,52 @@
+.detail{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-left:12%;
+    width: 72%;
+}
+.detail button{
+    width:15rem;
+    height:3rem;
+    border-color: aliceblue;
+    border-radius:1rem;
+    border:0cap;
+    padding: 0 1rem 0 1rem;
+    margin: 2rem 0.2rem 0 2rem; 
+
+
+}
+.detail .sorted{
+    font-size:15px;
+    font-weight:lighter;
+}
+.explores{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left:12%;
+    width:90%;
+}
+
+.explores button{
+    width:30rem;
+    height:3rem;
+    border-color:whitesmoke;
+    border-radius:1rem;
+    border:0cap;
+    padding: 0 1rem 0 1rem;
+    margin: 2rem 0.2rem 0 2rem; 
+    background-color:whitesmoke;
+
+}
+.explores .explore{
+    font-size: 15px;
+    font-weight: lighter;
+}
+.footheader{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top:4rem;
+}
+.applogo img{
+    width:10rem;
+    object-fit: cover;
+}

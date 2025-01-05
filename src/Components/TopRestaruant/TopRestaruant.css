@@ -1,0 +1,78 @@
+.heading{
+    text-transform: capitalize;
+    padding-left:13%;
+
+}
+.heading button{
+    border-color: aliceblue;
+    border-radius:50rem ;
+    height: 2rem;
+    padding: 0 1rem 0 1rem;
+    margin: 0 0.2rem 0 0.2rem;    
+}
+.sorted{
+    text-transform: capitalize;
+    font-weight: lighter;
+    background-color:white;
+}
+.container3{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width:72%;
+    height:30%;
+    margin: auto;
+    margin-top:50px;
+    margin-left:200px;
+    border-bottom:20px;
+}
+.cards{
+    margin-top:1rem;
+}
+.container3  img{
+    width:15rem;
+    height:10rem;
+    object-fit: cover;
+    padding: 0 1rem 0 1rem;
+    border-radius:25px ;
+    position: relative;
+}
+.cards h2{
+    text-transform: capitalize;
+    font-size:larger;
+    padding-left:40px;
+
+}
+.cards p{
+    text-transform: capitalize;
+    padding-left:40px;
+    font-weight:lighter;
+    color: gray;
+}
+.offers p{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size:x-large;
+
+
+}
+.offers{
+    position: absolute;
+    top:172%;
+}
+.cards span{
+    color:white;
+    border:2px solid black;
+    border-radius:50px;
+    background-color: green;
+    
+}
+.cards h3{
+    padding-left:40px;
+    font-size:medium;
+}
+.detail{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-left:12%;
+    width: 72%;
+}

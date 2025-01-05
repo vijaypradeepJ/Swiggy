@@ -1,0 +1,38 @@
+.container {
+    display: grid;
+    overflow:auto;
+    grid-auto-flow: column;
+   
+    width:72%;
+    height:30%;
+    margin: auto;
+    margin-top:50px;
+    margin-left:200px;
+
+   
+    
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.select button{
+    border:1px solid black;
+    border-radius:50px;
+    margin-left:10px;
+    height:50%;
+    width:6%;
+    padding-top:4px;
+    padding-left:2px;
+    background-color:#D5DEEF;
+
+}
+.container img{
+    width:150px;
+    height:200px;
+    translate: 1s;
+    float: left;
+    padding-left:20px;
+   
+   /* ---------restaurant slide ----- */
+    
+}
