@@ -1,13 +1,30 @@
-import React, { useRef } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import './Restaruant.css'
 import { RestaruantList } from '../../Data/Data'
 import { FaArrowLeft, FaArrowRight} from "react-icons/fa";
+import axios from "axios";
 
 
 function Restaruant() {
-  const scrollReference=useRef(null)
+  const [restaurantData,setRestaurantData]=useState([]);
+  const pathToJsonFile='../../Data/Data.json';
+  const scrollReference=useRef(null);
   const width=500;
-      const padding=10;
+  const padding=10;
+  useEffect(()=>{
+    const fetchRestaurantData=async()=>{
+      try{
+        const response=await axios.get(pathToJsonFile);
+        setRestaurantData(response.data);
+      }
+      catch(e){
+        console.log("Error fetching the Data",e)
+      }
+    };
+    fetchRestaurantData();
+
+  },[])
+
   const handleArrowLeft=()=>{
     if(scrollReference.current){
       
@@ -44,13 +61,13 @@ function Restaruant() {
         </div>
     </header>
     <div className="container2" ref={scrollReference}>
-    {RestaruantList.map((list)=>(
+    {restaurantData.map((list)=>(
       <div className="cards">
       <img src={list.Image}/>
       <div className="offers">
           
       </div>
-      <h2>{list.title}</h2>
+      <h2>{list.restaruant}</h2>
      
       <p>{list.address1}</p>
       <p>{list.address2}</p>

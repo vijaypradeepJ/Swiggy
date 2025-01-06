@@ -1,0 +1,186 @@
+[
+    
+        {
+            "Image":"../Images/barbeque.avif",
+            "restaruant":"UBQ by Barbeque Nation",
+            "type":"nonveg",
+            "address1":"north indian,barbecue,briyani,..",
+            "address2":"alagapuram pudur"
+    
+    
+        },
+        {
+            "Image":"../Images/kwality.avif",
+            "restaruant":"pizza hut",
+            "type":"nonveg",
+            "address1":"pizzas",
+            "address2":"alagapuram pudur"
+    
+    
+        },
+        {
+            "Image":"../Images/lakshimi.avif",
+            "restaruant":"saravana parottas",
+            "type":"nonveg",
+            "address1":"chinese,south indian,ice  ream,..",
+            "address2":"anna park,four roads"
+    
+    
+        },
+        {
+            "Image":"../Images/belgin.avif",
+            "restaruant":"nsp hotel",
+            "type":"veg",
+            "address1":"chinese,north indian,south indian...",
+            "address2":"shevapet<"
+    
+    
+        },
+        {
+            "Image":"../Images/placeholder.avif",
+            "restaruant":"hotel shri anandhas",
+            "type":"veg",
+            "address1":"south indian,chinese,briyani...</",
+            "address2":"salem new bustand"
+    
+    
+        },
+        {
+            "Image":"../Images/saravana.avif",
+            "restaruant":"renuka mess",
+            "type":"veg",
+            "address1":"chinese,south indian",
+            "address2":"alagapuram pudur"
+    
+    
+        },
+        {
+            "Image":"../Images/shri.avif",
+            "restaruant":"sri saivihar",
+            "type":"nonveg",
+            "address1":"chinese,north indian,south indian...</",
+            "address2":"alagapuram pudur"
+    
+    
+        },
+        {
+            "Image":"../Images/belgin.avif",
+            "restaruant":"lakshimi hotel",
+            "type":"veg",
+            "address1":"south indian",
+            "address2":"gugai"
+    
+    
+        },
+        {
+            "Image":"../Images/kwality.avif",
+            "restaruant":"rasikas restaurant",
+            "type":"veg",
+            "address1":"south indian,chinese,arabian...</",
+            "address2":"shevapet"
+    
+    
+        },
+        {
+            "Image":"../Images/lakshimi.avif",
+            "restaruant":"pavillion dine multi cuisine",
+            "type":"nonveg",
+            "address1":"chinese,south indian,briyani",
+            "address2":"alagapuram pudur"
+    
+    
+        },
+        {
+            "Image":"../Images/placeholder.avif",
+            "restaruant":"ri dhanalakshimi mess",
+            "type":"veg",
+            "address1":"south indian,north indian,chinese...</",
+            "address2":"chinna pudur"
+    
+    
+        },
+        {
+            "Image":"../Images/shri.avif",
+            "restaruant":"salem paradise",
+            "type":"veg",
+            "address1":"pastas,chinese,ice cream,briyani",
+            "address2":"alagapuram pudu"
+    
+    
+        },
+        {
+            "Image":"../Images/saravana.avif",
+            "restaruant":"am briyani",
+            "type":"nonveg",
+            "address1":"chinese,north indian,briyani",
+            "address2":"alagapuram pudur"
+    
+    
+        },
+        {
+            "Image":"../Images/lakshimi.avif",
+            "restaruant":"nikka briyani",
+            "type":"nonveg",
+            "address1":"briyani,indian,chinese",
+            "address2":"saradha college road"
+    
+    
+        },
+        {
+            "Image":"../Images/kwality.avif",
+            "restaruant":"sri vaari fairlands",
+            "type":"veg",
+            "address1":"south indian,briyani",
+            "address2":"alagapuram pudur"
+    
+    
+        },
+        {
+            "Image":"../Images/shri.avif",
+            "restaruant":"hotel shiv sai vihar",
+            "type":"veg",
+            "address1":"desserts,chinese,north indian,...</",
+            "address2":"gugai"
+    
+    
+        },
+        {
+            "Image":"../Images/saravana.avif",
+            "restaruant":"A2B- adayar ananda bhavan",
+            "type":"nonveg",
+            "address1":"south indian,north indian,sweets,..",
+            "address2":"saradha college road"
+    
+    
+        },
+        {
+            "Image":"../Images/lakshimi.avif",
+            "restaruant":"pavillion dine multi cuisine",
+            "type":"veg",
+            "address1":"chinese,south indian,briyani",
+            "address2":"alagapuram pudur"
+    
+    
+        },
+        {
+            "Image":"../Images/placeholder.avif",
+            "restaruant":"ri dhanalakshimi mess",
+            "type":"nonveg",
+            "address1":"south indian,north indian,chinese...</",
+            "address2":"chinna pudur"
+    
+    
+        },
+        {
+            "Image":"../Images/saravana.avif",
+            "restaruant":"A2B- adayar ananda bhavan",
+            "type":"veg",
+            "address1":"south indian,north indian,sweets,..",
+            "address2":"saradha college road"
+    
+    
+        }
+        
+        
+    
+    ]
