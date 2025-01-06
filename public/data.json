@@ -1,7 +1,7 @@
 [
     
         {
-            "Image":"../Images/barbeque.avif",
+            "Image":"belgin.avif",
             "restaruant":"UBQ by Barbeque Nation",
             "type":"nonveg",
             "address1":"north indian,barbecue,briyani,..",
@@ -10,7 +10,7 @@
     
         },
         {
-            "Image":"../Images/kwality.avif",
+            "Image":"kwality.avif",
             "restaruant":"pizza hut",
             "type":"nonveg",
             "address1":"pizzas",
@@ -19,7 +19,7 @@
     
         },
         {
-            "Image":"../Images/lakshimi.avif",
+            "Image":"lakshimi.avif",
             "restaruant":"saravana parottas",
             "type":"nonveg",
             "address1":"chinese,south indian,ice  ream,..",
@@ -28,7 +28,7 @@
     
         },
         {
-            "Image":"../Images/belgin.avif",
+            "Image":"belgin.avif",
             "restaruant":"nsp hotel",
             "type":"veg",
             "address1":"chinese,north indian,south indian...",
@@ -37,7 +37,7 @@
     
         },
         {
-            "Image":"../Images/placeholder.avif",
+            "Image":"placeholder.avif",
             "restaruant":"hotel shri anandhas",
             "type":"veg",
             "address1":"south indian,chinese,briyani...</",
@@ -46,7 +46,7 @@
     
         },
         {
-            "Image":"../Images/saravana.avif",
+            "Image":"saravana.avif",
             "restaruant":"renuka mess",
             "type":"veg",
             "address1":"chinese,south indian",
@@ -55,7 +55,7 @@
     
         },
         {
-            "Image":"../Images/shri.avif",
+            "Image":"shri.avif",
             "restaruant":"sri saivihar",
             "type":"nonveg",
             "address1":"chinese,north indian,south indian...</",
@@ -64,7 +64,7 @@
     
         },
         {
-            "Image":"../Images/belgin.avif",
+            "Image":"belgin.avif",
             "restaruant":"lakshimi hotel",
             "type":"veg",
             "address1":"south indian",
@@ -73,7 +73,7 @@
     
         },
         {
-            "Image":"../Images/kwality.avif",
+            "Image":"kwality.avif",
             "restaruant":"rasikas restaurant",
             "type":"veg",
             "address1":"south indian,chinese,arabian...</",
@@ -82,7 +82,7 @@
     
         },
         {
-            "Image":"../Images/lakshimi.avif",
+            "Image":"lakshimi.avif",
             "restaruant":"pavillion dine multi cuisine",
             "type":"nonveg",
             "address1":"chinese,south indian,briyani",
@@ -91,7 +91,7 @@
     
         },
         {
-            "Image":"../Images/placeholder.avif",
+            "Image":"placeholder.avif",
             "restaruant":"ri dhanalakshimi mess",
             "type":"veg",
             "address1":"south indian,north indian,chinese...</",
@@ -100,7 +100,7 @@
     
         },
         {
-            "Image":"../Images/shri.avif",
+            "Image":"shri.avif",
             "restaruant":"salem paradise",
             "type":"veg",
             "address1":"pastas,chinese,ice cream,briyani",
@@ -109,7 +109,7 @@
     
         },
         {
-            "Image":"../Images/saravana.avif",
+            "Image":"saravana.avif",
             "restaruant":"am briyani",
             "type":"nonveg",
             "address1":"chinese,north indian,briyani",
@@ -118,7 +118,7 @@
     
         },
         {
-            "Image":"../Images/lakshimi.avif",
+            "Image":"lakshimi.avif",
             "restaruant":"nikka briyani",
             "type":"nonveg",
             "address1":"briyani,indian,chinese",
@@ -127,7 +127,7 @@
     
         },
         {
-            "Image":"../Images/kwality.avif",
+            "Image":"kwality.avif",
             "restaruant":"sri vaari fairlands",
             "type":"veg",
             "address1":"south indian,briyani",
@@ -136,7 +136,7 @@
     
         },
         {
-            "Image":"../Images/shri.avif",
+            "Image":"shri.avif",
             "restaruant":"hotel shiv sai vihar",
             "type":"veg",
             "address1":"desserts,chinese,north indian,...</",
@@ -145,7 +145,7 @@
     
         },
         {
-            "Image":"../Images/saravana.avif",
+            "Image":"saravana.avif",
             "restaruant":"A2B- adayar ananda bhavan",
             "type":"nonveg",
             "address1":"south indian,north indian,sweets,..",
@@ -154,7 +154,7 @@
     
         },
         {
-            "Image":"../Images/lakshimi.avif",
+            "Image":"lakshimi.avif",
             "restaruant":"pavillion dine multi cuisine",
             "type":"veg",
             "address1":"chinese,south indian,briyani",
@@ -163,7 +163,7 @@
     
         },
         {
-            "Image":"../Images/placeholder.avif",
+            "Image":"placeholder.avif",
             "restaruant":"ri dhanalakshimi mess",
             "type":"nonveg",
             "address1":"south indian,north indian,chinese...</",
@@ -172,7 +172,7 @@
     
         },
         {
-            "Image":"../Images/saravana.avif",
+            "Image":"saravana.avif",
             "restaruant":"A2B- adayar ananda bhavan",
             "type":"veg",
             "address1":"south indian,north indian,sweets,..",

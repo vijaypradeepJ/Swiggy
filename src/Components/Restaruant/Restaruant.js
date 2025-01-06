@@ -1,13 +1,16 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React from 'react';
+import  { useEffect, useRef, useState } from 'react'
 import './Restaruant.css'
-import { RestaruantList } from '../../Data/Data'
 import { FaArrowLeft, FaArrowRight} from "react-icons/fa";
 import axios from "axios";
+//import "../../Data/data.json";
+
 
 
 function Restaruant() {
   const [restaurantData,setRestaurantData]=useState([]);
-  const pathToJsonFile='../../Data/Data.json';
+  const pathToJsonFile="/data.json";
+  console.log(pathToJsonFile)
   const scrollReference=useRef(null);
   const width=500;
   const padding=10;
