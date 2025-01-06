@@ -3,7 +3,6 @@ import  { useEffect, useRef, useState } from 'react'
 import './Restaruant.css'
 import { FaArrowLeft, FaArrowRight} from "react-icons/fa";
 import axios from "axios";
-//import "../../Data/data.json";
 
 
 
@@ -63,17 +62,17 @@ function Restaruant() {
         </div>
         </div>
     </header>
-    <div className="container2" ref={scrollReference}>
-    {restaurantData.map((list)=>(
+  <div className="container2" ref={scrollReference}>
+    {restaurantData.map(({Image,restaruant,address1,address2})=>(
       <div className="cards">
-      <img src={list.Image}/>
+      <img src={Image}/>
       <div className="offers">
           
       </div>
-      <h2>{list.restaruant}</h2>
+      <h2>{restaruant}</h2>
      
-      <p>{list.address1}</p>
-      <p>{list.address2}</p>
+      <p>{address1}</p>
+      <p>{address2}</p>
      </div>
      
 

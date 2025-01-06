@@ -1,11 +1,31 @@
-import React ,{useState} from 'react'
+import React ,{useEffect, useState} from 'react'
 import './TopRestaruant.css'
 import { TopRestrauntlist } from '../../Data/Data'
+import axios from 'axios';
 
 function TopRestaruant() {
+    const[restaruantData,setRestaurantData]=useState([]);
+    const pathToJsonFile="/data.json";
     const[Restrauntlist,setrestrauntlist]=useState(TopRestrauntlist)
     const[nonveglist,setnonveglist]=useState(Restrauntlist)
     const[veglist,setveglist]=useState(Restrauntlist)
+    useEffect (()=>{
+        const fetchRestaurantData = async ()=>{
+            try{
+            const response=await axios.get(pathToJsonFile);
+            setRestaurantData(response.data);
+
+            }
+            catch(e){
+                console.log("Error fetching the data",e);
+            }
+            
+
+        };
+        fetchRestaurantData();
+
+    },[])
+    
 
 
    const showveg=()=>{
@@ -37,19 +57,19 @@ function TopRestaruant() {
              
         </div>
         <div class="container3">
-        {TopRestrauntlist.map((list) =>(
-            <div class="cards">
-                <img src={list.Image} alt={list.Image} />
+        {restaruantData.map(({restraunt,address1,address2,Image,type},index) =>(
+            <div class="cards" key={index}>
+                <img src={Image} alt={Image} />
              
             <div class="offers">
                
                 </div>
-            <h2>{list.title}</h2>
+            <h2>{restraunt}</h2>
             <h3><span >{'\u9733'}</span>3.9 {'\u2022'} 35-40 mins</h3>
-            <h2>{list.type}</h2>
+            <h2>{type}</h2>
           
-            <p>{list.address1}</p>
-            <p>{list.address2}</p>
+            <p>{address1}</p>
+            <p>{address2}</p>
             </div>
 
             ))}
